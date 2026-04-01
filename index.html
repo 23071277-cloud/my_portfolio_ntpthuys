@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Nguyễn Thị Phương Thúy, portfolio, full stack developer, ReactJS, Node.js, Hà Nội" />
+    <meta name="description" content="Portfolio cá nhân của Nguyễn Thị Phương Thúy - Full Stack Web Developer tại Hà Nội" />
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    
+    <title>Portfolio | Nguyễn Thị Phương Thúy</title>
+</head>
+<body oncontextmenu="return false">
+
+<!-- Navbar -->
+<header>
+    <a href="/" class="logo"><i class="fab fa-node-js"></i> Nguyễn Thị Phương Thúy</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+    <div class="content">
+        <h2>Hi There,<br/> I'm Thúy <span>Phương</span></h2>
+        <p>i am into <span class="typing-text"></span></p>
+        <a href="#about" class="btn"><span>About Me</span> <i class="fas fa-arrow-circle-down"></i></a>
+        
+        <div class="socials">
+            <ul class="social-icons">
+                <li><a class="github" href="https://github.com/23071277-cloud" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a class="facebook" href="https://www.facebook.com/phuongg.thuy.102" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/z6129462964333_aa4a041af5fd7b70ec03d2900479f53a.jpg" alt="Nguyễn Thị Phương Thúy">
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    <div class="row">
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/z6129637415799_29d267fcc0b96614820e6da9625f91f2.jpg" alt="Nguyễn Thị Phương Thúy">
+        </div>
+        <div class="content">
+            <h3>Nguyễn Thị Phương Thúy</h3>
+            <span class="tag">Full Stack Web Developer</span>
+            <p>Xin chào! Tôi là Nguyễn Thị Phương Thúy, sinh viên chuyên ngành Hệ thống Thông tin Quản lý (MIS) tại International School - Đại học Quốc gia Hà Nội. 
+               Tôi đam mê phát triển web hiện đại, tập trung vào việc xây dựng giao diện đẹp mắt và backend mạnh mẽ. 
+               Hiện tại tôi đang học và thực hành ReactJS, Node.js, Express cùng các công nghệ Full-Stack khác.</p>
+            
+            <div class="box-container">
+                <div class="box">
+                    <p><span>Email:</span> phgthuy11@gmail.com</p>
+                    <p><span>Phone:</span> 0989976023</p>
+                    <p><span>Location:</span> Hà Nội, Việt Nam</p>
+                    <p><span>GitHub:</span> <a href="https://github.com/23071277-cloud" target="_blank">23071277-cloud</a></p>
+                </div>
+            </div>
+            
+            <div class="resumebtn">
+                <a href="https://drive.google.com/file/d/YOUR_RESUME_LINK/view" target="_blank" class="btn">
+                    <span>Download Resume</span> <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+    <div class="container">
+        <div class="row" id="skillsContainer"></div>
+    </div>
+    
+    <!-- Chi tiết ReactJS -->
+    <div style="margin-top: 40px; text-align: center;">
+        <h3 style="color: #bb86fc;">ReactJS Proficiency</h3>
+        <p style="max-width: 800px; margin: 15px auto; line-height: 1.6;">
+            Thành thạo xây dựng giao diện người dùng với <strong>ReactJS</strong>: Functional Components, Hooks (useState, useEffect, useContext, useReducer, useMemo...), 
+            React Router, Redux Toolkit, TailwindCSS/MaterialUI. Tập trung vào hiệu năng và trải nghiệm người dùng tốt.
+        </p>
+    </div>
+</section>
+
+<!-- Education -->
+<section class="education" id="education">
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img draggable="false" src="./assets/images/educat/vnuis.webp" alt="VNUIS">
+            </div>
+            <div class="content">
+                <h3>Management Information System (MIS)</h3>
+                <p>International School - Vietnam National University, Hanoi (VNU-IS)</p>
+                <h4>2023 - 2025 | Đang học</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section class="work" id="work">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+    <div class="box-container">
+
+        <div class="box project-card">
+            <img src="./assets/images/project1.jpg" alt="E-Commerce" style="width:100%; height:200px; object-fit:cover;">
+            <div class="content" style="padding: 20px;">
+                <h3>E-Commerce Platform</h3>
+                <p>Website bán hàng trực tuyến đầy đủ chức năng: giỏ hàng, thanh toán, quản lý sản phẩm và dashboard admin.</p>
+                <p><strong>Tech:</strong> ReactJS, Redux, Node.js, Express, MongoDB, TailwindCSS</p>
+                <a href="https://github.com/23071277-cloud" target="_blank" class="btn" style="margin-top:15px;">View on GitHub</a>
+            </div>
+        </div>
+
+        <div class="box project-card">
+            <img src="./assets/images/project2.jpg" alt="Student Management" style="width:100%; height:200px; object-fit:cover;">
+            <div class="content" style="padding: 20px;">
+                <h3>Student Management System</h3>
+                <p>Hệ thống quản lý sinh viên: đăng ký môn học, theo dõi điểm số, lịch học và báo cáo thống kê.</p>
+                <p><strong>Tech:</strong> ReactJS, Node.js, MySQL, Bootstrap</p>
+                <a href="https://github.com/23071277-cloud" target="_blank" class="btn" style="margin-top:15px;">View on GitHub</a>
+            </div>
+        </div>
+
+        <div class="box project-card">
+            <img src="./assets/images/project3.jpg" alt="Portfolio" style="width:100%; height:200px; object-fit:cover;">
+            <div class="content" style="padding: 20px;">
+                <h3>Personal Portfolio Website</h3>
+                <p>Website portfolio cá nhân responsive, tích hợp Particles.js, hiệu ứng typing và hiển thị đầy đủ thông tin.</p>
+                <p><strong>Tech:</strong> HTML5, CSS3, JavaScript, jQuery</p>
+                <a href="https://github.com/23071277-cloud" target="_blank" class="btn" style="margin-top:15px;">View on GitHub</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Experience -->
+<section class="experience" id="experience">
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience</h2>
+
+  <div class="timeline">
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Full Stack Developer</h2>
+        </div>
+        <div class="desc">
+            <h3>Freelance Projects</h3>
+            <p>2024 - Present</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Học viện Công nghệ</h2>
+          </div>
+          <div class="desc">
+              <h3>Web Development Intern</h3>
+              <p>Tháng 6/2024</p>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+    
+    <div class="container">
+        <div class="content">
+            <div class="image-box">
+                <img draggable="false" src="./assets/images/contact1.png" alt="Contact Illustration">
+            </div>
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Họ và Tên" required>
+                        <i class='fas fa-user'></i>
+                    </div>
+                    <div class="field">
+                        <input type="email" name="email" placeholder="Email" required>
+                        <i class='fas fa-envelope'></i>
+                    </div>
+                    <div class="message">
+                        <textarea name="message" placeholder="Nội dung tin nhắn..." required></textarea>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                </div>
+                <div class="button-area">
+                    <button type="submit">Gửi Tin Nhắn <i class="fa fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Phương Thúy's Portfolio</h3>
+            <p>Thank you for visiting my website.<br>Let's connect and create something great together!<br><br>Keep Rising 🚀</p>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+            <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+            <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+            <a href="#education"><i class="fas fa-chevron-circle-right"></i> Education</a>
+            <a href="#work"><i class="fas fa-chevron-circle-right"></i> Projects</a>
+            <a href="#experience"><i class="fas fa-chevron-circle-right"></i> Experience</a>
+            <a href="#contact"><i class="fas fa-chevron-circle-right"></i> Contact</a>
+        </div>
+        <div class="box">
+            <h3>Contact Info</h3>
+            <p><i class="fas fa-phone"></i> 0989976023</p>
+            <p><i class="fas fa-envelope"></i> phgthuy11@gmail.com</p>
+            <p><i class="fas fa-map-marked-alt"></i> Hà Nội, Việt Nam</p>
+            <div class="share">
+                <a href="https://github.com/23071277-cloud" class="fab fa-github" target="_blank"></a>
+                <a href="https://www.facebook.com/phuongg.thuy.102" class="fab fa-facebook-f" target="_blank"></a>
+                <a href="mailto:phgthuy11@gmail.com" class="fas fa-envelope"></a>
+            </div>
+        </div>
+    </div>
+    <h1 class="credit">
+        Designed with <i class="fa fa-heart pulse"></i> by <strong>Nguyễn Thị Phương Thúy</strong>
+    </h1>
+</section>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
